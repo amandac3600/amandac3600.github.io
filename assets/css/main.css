@@ -1818,6 +1818,7 @@ input, select, textarea {
 	text-decoration: none;
 	border: none;
 	outline: none;
+	width: 20px;
 	padding: 5px;
 }
 
@@ -3993,8 +3994,10 @@ ul.education li{
 }
 
 	#cta .icons a {
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.7);
+		font-size: 36px;
 		padding: 10px;
+		margin-right: 20px;
 	}
 
 	.fa-twitter {
@@ -4029,6 +4032,7 @@ ul.education li{
 
 		#footer .icons {
 			font-size: 1.25em;
+			font-size: 32px;
 		}
 
 			#footer .icons a {

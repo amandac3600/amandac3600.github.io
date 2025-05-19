@@ -34,7 +34,7 @@ const ExperienceCard = ({ experience }) => (
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[100%] h-[100%] object-contain"
         />
       </div>
     }>
@@ -59,7 +59,7 @@ const Experience = () => {
           What I've done so far
         </p>
         <h2 className={`${styles.sectionHeadText} sm:pl-16 pl-[2rem]`}>
-          Work Experience.
+          Work Experience
         </h2>
       </motion.div>
 
@@ -87,7 +87,7 @@ const Experience = () => {
                 <img
                   src={resume}
                   alt="resume"
-                  className="w-[45%] h-[45%] object-contain"
+                  className="w-[55%] h-[55%] object-contain"
                 />
               </div>
             }>
@@ -97,12 +97,12 @@ const Experience = () => {
               font-bold font-beckman items-center py-5 pl-3 pr-3 
               whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
               w-[125px] h-[46px] rounded-[10px] bg-jetLight 
-              sm:mt-[22px] mt-[16px] hover:bg-battleGray 
+              sm:mt-[22px] mt-[16px] hover:bg-battleBlueGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  '/resume.pdf',
                   '_blank'
                 )
               }
@@ -131,4 +131,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, 'work');
+export default SectionWrapper(Experience, 'experience');

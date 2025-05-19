@@ -18,7 +18,7 @@ const ServiceCard = ({ index, title, icon }) => {
         }}
         className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
         <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-        <h3 className="text-taupe text-[18px] font-bold text-center">
+        <h3 className="text-silver text-[18px] font-bold text-center">
           {title}
         </h3>
       </div>
@@ -31,18 +31,15 @@ const About = () => {
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About me</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
-        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        className="mt-4 text-taupe text-[19px] max-w-3xl leading-[30px]">
+        I’m a full-stack software engineer based in Los Angeles, CA, with experience in Ruby on Rails, JavaScript, SQL, React, Redux, PostgreSQL, Stimulus, and more. 
+        With a background in Economics and Accounting, I bring an analytical mindset to solving technical problems and building clean, scalable apps. 
+        Outside of coding, I love baking, playing League, and hanging out with my Maine Coon, Boba.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

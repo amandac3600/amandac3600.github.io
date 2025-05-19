@@ -9,14 +9,17 @@ const Tech = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubTextLight}>My skills</p>
-        <h2 className={styles.sectionHeadTextLight}>Technologies.</h2>
+        <p className={styles.sectionSubTextLight}>Skills & Certifications</p>
+        <h2 className={styles.sectionHeadTextLight}>Technologies</h2>
       </motion.div>
 
-      <div className="flex flex-wrap justify-center gap-10 mt-14">
+      <div className="flex flex-wrap justify-center gap-16 mt-14">
         {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
+          <div className="group relative w-32 h-32" key={technology.name}>
             <BallCanvas icon={technology.icon} />
+            <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 opacity-0 group-hover:opacity-100 transition text-sm text-center bg-gray-600 text-white px-2 py-1 rounded shadow-lg z-10">
+              {technology.name}
+            </div>
           </div>
         ))}
       </div>

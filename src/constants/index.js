@@ -4,26 +4,29 @@ import {
   ux,
   prototyping,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   redux,
-  tailwind,
   nodejs,
   git,
   figma,
-  docker,
   postgresql,
   rubyrails,
-  graphql,
-  komikult,
+  ruby,
+  sql,
+  weather_wanderer,
+  kitten_around,
   leaderboard,
   math,
   movie,
   nyeusi,
   space,
-  coverhunt,
+  comptia,
+  google,
+  wrapbook,
+  prevail,
+  ernst_and_young,
   dcc,
   kelhel,
   microverse,
@@ -39,26 +42,26 @@ export const navLinks = [
     title: 'Projects',
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: 'experience',
+    title: 'Experience',
   },
 ];
 
 const services = [
   {
-    title: 'Frontend Developer',
-    icon: frontend,
-  },
-  {
-    title: 'Backend Developer',
+    title: 'Full Stack Development',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Responsive Design',
+    icon: frontend,
+  },
+  {
+    title: 'Automated Testing',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
+    title: 'Agile Development',
     icon: prototyping,
   },
 ];
@@ -77,195 +80,106 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
+    name: 'Redux',
     icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
   },
   {
     name: 'Node JS',
     icon: nodejs,
   },
   {
+    name: 'Ruby',
+    icon: ruby,
+  },
+  {
     name: 'Rails',
     icon: rubyrails,
   },
   {
-    name: 'graphql',
-    icon: graphql,
+    name: 'Sql',
+    icon: sql,
   },
   {
-    name: 'postgresql',
+    name: 'Postgresql',
     icon: postgresql,
   },
   {
-    name: 'git',
+    name: 'Git',
     icon: git,
   },
   {
-    name: 'figma',
+    name: 'Figma',
     icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
   },
 ];
 
+const certifications = [
+  {
+    name: 'Comptia Security+ ce Certification',
+    issuer: 'CompTIA',
+    date: 'May 2025',
+    icon: comptia,
+    link: 'https://www.credly.com/badges/e757a1fd-58d4-448c-9477-a15a6e8c9b31/linked_in_profile',
+  },
+  {
+    name: 'Google Cybersecurity Certificate V2 ',
+    issuer: 'Google',
+    date: 'Mar 2025',
+    icon: google,
+    link: 'https://www.credly.com/badges/c78028ad-b1eb-49aa-948f-e7cbf44d7519/linked_in_profile',
+  },
+]
+
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Software Engineer II',
+    company_name: 'Wrapbook',
+    icon: wrapbook,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Mar 2024 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Software Engineer',
+    company_name: 'Prevail Legal',
+    icon: prevail,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Jun 2022 - Mar 2024',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Audit Intern',
+    company_name: 'Ernst and Young',
+    icon: ernst_and_young,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Jun 2021 - Aug 2021',
   },
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Weather Wanderer',
+    description: 'An interactive weather app that lets users explore real-time weather conditions worldwide.',
     tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: weather_wanderer,
+    repo: 'https://github.com/amandac3600/Weather_Wanderer',
+    demo: 'https://weather-wanderer-wild-cherry-8496.fly.dev/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: "Kitten' Around",
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A 2-D Platformer game where you play as a kitten to collect a fish while avoiding obstacles.',
     tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
-  },
-  {
-    id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image: kitten_around,
+    repo: 'https://github.com/amandac3600/Kitten_Around',
+    demo: 'https://amandakchen.com/Kitten_Around/',
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, certifications, experiences, projects };

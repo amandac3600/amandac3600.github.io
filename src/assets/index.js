@@ -43,7 +43,7 @@ import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
-import weather_wanderer from './projects/weather_wanderer.png';
+import weather_wanderer from './projects/weather_wanderer_home.png';
 import kitten_around from './projects/kitten_around.jpeg';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
